@@ -51,6 +51,10 @@
     color: aliceblue;
     font-weight: 400;
     font-size: 20px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+     background-color: rgb(202, 53, 53);
 }
 
 /* Donate Styles */
@@ -173,6 +177,77 @@ color: gray;
     color: aliceblue;
     font-weight: 400;
     font-size: 20px;
+    cursor: pointer;
+}
+.btn-cont:hover{
+    background-color: rgb(203, 68, 68);
+}
+/* Mail Update */
+
+.mail-update{
+    width: 800px;
+    margin: 90px auto;
+    text-align: center;
+    
+}
+
+.mail-update h1{
+ font-size: 45px;
+
+    
+}
+.mail-update p{
+ font-size: 18px;
+ color: gray; 
+ margin: 30px 0 ;
+}
+.mail{
+    background-color: bisque;
+    padding: 100px 100px;
+    border-radius: 10px;
+}
+.mail input[type="email"]{
+    border: 0;
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px; 
+    background-color: rgb(215, 212, 212);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.mail input[type="submit"]{
+    border: 0;
+    width: 20%;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border-end-end-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #FF5959;
+    cursor: pointer;
+}
+.mail input[type="submit"]:hover{
+    background-color: #d64c4c;
+}
+/* footer */
+.footer{
+    display: flex;
+    background-color: black;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer h1{
+   color: rgb(213, 80, 80);
+   align-items: center;
+   margin-bottom: 20px;
+   
+}
+.footer p{
+   color: rgb(228, 224, 224);
 }
 
 
