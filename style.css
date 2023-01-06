@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.back-img{
+    position: relative;
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.438) 20%,
+    rgba(32, 4, 4, 0.811)), url("./assets/images/donation6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* filter: blur(2px); */
+    height: 550px;
+    width: 100%;
+    
+}
+.header-description{
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top:170px;
+    left: 400px;
+    margin: auto;
+    width: 630px;
+}
+.header-description  p{
+   color: aliceblue;
+   text-align: center;
+   margin-bottom: 20px;
+   
+}
+.header-description h1{
+    font-size: 45px;
+    color: aliceblue;
+}
+.header-description p{
+   font-size: 20px;
+   color: rgb(196, 197, 197);
+}
+.btn-primary{
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(239, 82, 82);
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Donate Styles */
+
+.donate{
+    text-align: center;
+    padding: 80px;
+    width: 700px;
+    margin:40px auto;
+    background-color: rgb(250, 249, 247);
+}
+.donate h1{
+    font-size: 40px;
+    font-weight:700 ;
+}
+.donate p{
+    color: gray;
+    font-size: 16px;
+    margin: 25px 0;
+
+}
+.donate button{
+    width: 130px;
+    height: 80px; 
+    background-color: transparent;
+    border: 0;
+    font-size: 30px;
+    color: rgb(101, 90, 90);
+    font-weight: 700;
+}
+.active{
+    border: 3px solid tomato !important;
+    background: rgb(254, 238, 238) !important;
+}
+.donate input[type="text"]{
+    border: 0;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid gainsboro;
+    margin: 60px 0;
+     /* text-align: center; */
+    outline: 0;
+    font-size: 20px;
+
+}
+/* donate Plans */
+.plan-section{
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+.plan-section > p{
+    margin: 30px 0;
+    font-size: 18px;
+    color: gray;
+}
+.plan-section > h1{
+    font-size: 45px;
+}
+.donate-plans{
+    display: flex;
+    gap: 20px;
+}
+.plan{
+    padding: 20px;
+    text-align: left;
+
+}
+.plan:nth-child(1){
+background-color: rgb(250, 250, 246);
+
+}
+.plan:nth-child(2){
+background-color: rgb(246, 246, 232);
+
+}
+.plan:nth-child(3){
+background-color: rgb(248, 248, 211);
+
+}
+.plan > h4{
+  margin: 20px 0;
+
+}
+.plan > p{
+color: gray;
+
+}
+
+/* Donation styles  */
+.donations-1{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 150px;
+}
+.donate-img img{
+     width: 350px;
+     height: 300px;
+     border-radius: 10px;
+}
+.donate-txt{
+    padding: 0 30px;
+}
+.donate-txt h1{
+  margin-bottom: 20px;
+}
+.donate-txt p{
+  color: gray;
+}
+.btn-cont{
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(239, 82, 82);
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+
+
+
